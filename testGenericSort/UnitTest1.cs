@@ -22,4 +22,31 @@ public class UnitTest1
 
         Assert.Equal(expectedResults, sortedStrings);
     }
+    public void test_sortDoubles()
+    {
+        var unsortedDoubles = new List<double> { 5.5, 4.4, 3.3, 2.2, 1.1 };
+        var expectedResults = new List<double> { 1.1, 2.2, 3.3, 4.4, 5.5 };
+
+        var sortedDoubles = genericSort.Program.Sort(unsortedDoubles);
+
+        Assert.Equal(expectedResults, sortedDoubles);
+    }
+    public void test_sortBooleans()
+    {
+        var unsortedBooleans = new List<bool> { true, false, true, false, true };
+        var expectedResults = new List<bool> { false, false, true, true, true };
+
+        var sortedBooleans = genericSort.Program.Sort(unsortedBooleans);
+
+        Assert.Equal(expectedResults, sortedBooleans);
+    }
+
+    // public void test_emptyList()
+    // {
+    //     var unsortedList = new List<int>(){};
+    //     var expectedResults = "List is empty";
+
+    //     var actualResults = Assert.Throws<ArgumentException>(() => genericSort.Program.Sort(unsortedList));
+    //     Assert.Equal(expectedResults, actualResults.Message);
+    // }
 }
