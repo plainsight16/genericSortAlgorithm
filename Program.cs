@@ -36,10 +36,18 @@
             Console.Write("}");
             Console.WriteLine();
         }
+        /// <summary>
+        /// A generic sort function that takes in a list of any type and sorts it.
+        /// </summary>
+        /// <param name="list"></param>
+        /// <typeparam name="T"></typeparam>
+        /// <returns>list<T></returns>
         public static List<T> Sort<T>(List<T> list) where T : IComparable<T>
         {
             T[] arr = list.ToArray();
             int length = arr.Length;
+
+            if (length == 0) throw new ArgumentException("List is empty"); 
         
             if (length < 16)
             {
