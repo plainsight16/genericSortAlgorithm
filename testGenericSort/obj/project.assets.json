@@ -1808,6 +1808,19 @@
         "build": {
           "build/netcoreapp3.1/xunit.runner.visualstudio.props": {}
         }
+      },
+      "GenericSort/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "xunit": "2.4.2"
+        },
+        "compile": {
+          "bin/placeholder/GenericSort.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GenericSort.dll": {}
+        }
       }
     }
   },
@@ -6103,10 +6116,16 @@
         "xunit.runner.visualstudio.2.4.5.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "GenericSort/1.0.0": {
+      "type": "project",
+      "path": "../GenericSort.csproj",
+      "msbuildProject": "../GenericSort.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "GenericSort >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.3.2",
       "coverlet.collector >= 3.1.2",
       "xunit >= 2.4.2",
@@ -6139,7 +6158,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\User\\documents\\sr\\c#\\GenericSort\\GenericSort.csproj": {
+              "projectPath": "C:\\Users\\User\\documents\\sr\\c#\\GenericSort\\GenericSort.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
