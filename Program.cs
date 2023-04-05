@@ -15,7 +15,11 @@
 
 
         }
-
+        /// <summary>
+        /// A function that prints out to the console a list of any type in specified format.
+        /// </summary>
+        /// <param name="list"></param>
+        /// <typeparam name="T"></typeparam>
 
         private static void  printList<T> (List<T> list)
         {   
@@ -66,6 +70,13 @@
             }
         }
 
+        /// <summary>
+        /// A helper fuction to the Sort function that sorts an array of any type using the insertion sort algorithm.
+        /// </summary>
+        /// <param name="arr"></param>
+        /// <param name="n"></param>
+        /// <typeparam name="T"></typeparam>
+        /// <returns></returns>
         private static T[] insertionSort<T>(T[] arr, int n) where T : IComparable<T>
         {
             for (int i = 1; i < n; ++i)
@@ -83,6 +94,14 @@
             return arr;
         }
 
+        /// <summary>
+        /// A helper fuction to the Sort function that sorts an array of any type using the quick sort algorithm.
+        /// </summary>
+        /// <param name="arr"></param>
+        /// <param name="low"></param>
+        /// <param name="high"></param>
+        /// <typeparam name="T"></typeparam>
+        /// <returns></returns>
         private static T[] quickSort<T>(T[] arr, int low, int high) where T : IComparable<T>
         {
             if (low < high)
@@ -95,6 +114,14 @@
             return arr;
         }
 
+        /// <summary>
+        /// A helper fuction to the quickSort function that partitions an array of any type.
+        /// </summary>
+        /// <param name="arr"></param>
+        /// <param name="low"></param>
+        /// <param name="high"></param>
+        /// <typeparam name="T"></typeparam>
+        /// <returns></returns>
         private static int partition<T>(T[] arr, int low, int high) where T : IComparable<T>
         {
             var pivot = arr[high];
@@ -119,6 +146,13 @@
             return i + 1;
         }
 
+        /// <summary>
+        /// A helper function to the Sort function that sorts an array of any type using the heap sort algorithm.
+        /// </summary>
+        /// <param name="arr"></param>
+        /// <param name="n"></param>
+        /// <typeparam name="T"></typeparam>
+        /// <returns></returns>
         private static T[] heapSort<T>(T[] arr, int n) where T : IComparable<T>
         {
             for (int i = n / 2 - 1; i >= 0; i--)
@@ -135,6 +169,13 @@
             return arr;
         }
 
+        /// <summary>
+        /// A helper function to the heapSort function that heapifies an array of any type.
+        /// </summary>
+        /// <param name="arr"></param>
+        /// <param name="n"></param>
+        /// <param name="i"></param>
+        /// <typeparam name="T"></typeparam>
         private static void heapify<T>(T[] arr, int n, int i) where T : IComparable<T>
         {
             int largest = i;
