@@ -14,7 +14,7 @@
             printList(sortedList);
 
 
-        }
+        }       
         /// <summary>
         /// A function that prints out to the console a list of any type in specified format.
         /// </summary>

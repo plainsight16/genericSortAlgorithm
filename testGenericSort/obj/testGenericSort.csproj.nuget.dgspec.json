@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\documents\\sr\\c#\\GenericSort\\testGenericSort\\testGenericSort.csproj": {}
+    "c:\\Users\\User\\documents\\sr\\c#\\GenericSort\\testGenericSort\\testGenericSort.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\documents\\sr\\c#\\GenericSort\\GenericSort.csproj": {
+    "c:\\Users\\User\\documents\\sr\\c#\\GenericSort\\GenericSort.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\documents\\sr\\c#\\GenericSort\\GenericSort.csproj",
+        "projectUniqueName": "c:\\Users\\User\\documents\\sr\\c#\\GenericSort\\GenericSort.csproj",
         "projectName": "GenericSort",
-        "projectPath": "C:\\Users\\User\\documents\\sr\\c#\\GenericSort\\GenericSort.csproj",
+        "projectPath": "c:\\Users\\User\\documents\\sr\\c#\\GenericSort\\GenericSort.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\documents\\sr\\c#\\GenericSort\\obj\\",
+        "outputPath": "c:\\Users\\User\\documents\\sr\\c#\\GenericSort\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,9 +40,17 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.6.0, )"
+            },
             "xunit": {
               "target": "Package",
               "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.5, )"
             }
           },
           "imports": [
@@ -65,14 +73,14 @@
         }
       }
     },
-    "C:\\Users\\User\\documents\\sr\\c#\\GenericSort\\testGenericSort\\testGenericSort.csproj": {
+    "c:\\Users\\User\\documents\\sr\\c#\\GenericSort\\testGenericSort\\testGenericSort.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\documents\\sr\\c#\\GenericSort\\testGenericSort\\testGenericSort.csproj",
+        "projectUniqueName": "c:\\Users\\User\\documents\\sr\\c#\\GenericSort\\testGenericSort\\testGenericSort.csproj",
         "projectName": "testGenericSort",
-        "projectPath": "C:\\Users\\User\\documents\\sr\\c#\\GenericSort\\testGenericSort\\testGenericSort.csproj",
+        "projectPath": "c:\\Users\\User\\documents\\sr\\c#\\GenericSort\\testGenericSort\\testGenericSort.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\documents\\sr\\c#\\GenericSort\\testGenericSort\\obj\\",
+        "outputPath": "c:\\Users\\User\\documents\\sr\\c#\\GenericSort\\testGenericSort\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -89,8 +97,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\User\\documents\\sr\\c#\\GenericSort\\GenericSort.csproj": {
-                "projectPath": "C:\\Users\\User\\documents\\sr\\c#\\GenericSort\\GenericSort.csproj"
+              "c:\\Users\\User\\documents\\sr\\c#\\GenericSort\\GenericSort.csproj": {
+                "projectPath": "c:\\Users\\User\\documents\\sr\\c#\\GenericSort\\GenericSort.csproj"
               }
             }
           }

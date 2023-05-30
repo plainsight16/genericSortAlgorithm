@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MbGoYlD7cmK0gCYyUWeJH5Jfj4flnDY6+YA1UFMO7aF9+DY5s/WXri4/YydMMgu3neJyQ7oWLj63/YtAG8QRsw==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\User\\documents\\sr\\c#\\GenericSort\\testGenericSort\\testGenericSort.csproj",
+  "dgSpecHash": "1UTqwiOtuRVsf73UAMx2odruDmWA17h4ji1joMa1Ft70dv1lB7hbyiz6pdSfvikcexE1kYhPlv1R/d93QMqVfw==",
+  "success": false,
+  "projectFilePath": "c:\\Users\\User\\documents\\sr\\c#\\GenericSort\\testGenericSort\\testGenericSort.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.codecoverage\\17.3.2\\microsoft.codecoverage.17.3.2.nupkg.sha512",
@@ -97,5 +97,15 @@
     "C:\\Users\\User\\.nuget\\packages\\xunit.extensibility.execution\\2.4.2\\xunit.extensibility.execution.2.4.2.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.5\\xunit.runner.visualstudio.2.4.5.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Detected package downgrade: Microsoft.NET.Test.Sdk from 17.6.0 to 17.3.2. Reference the package directly from the project to select a different version. \r\n testGenericSort -> GenericSort -> Microsoft.NET.Test.Sdk (>= 17.6.0) \r\n testGenericSort -> Microsoft.NET.Test.Sdk (>= 17.3.2)",
+      "libraryId": "Microsoft.NET.Test.Sdk",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }
