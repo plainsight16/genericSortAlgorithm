@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Pth2o8OPkT39OQdkrEM0CaXYfWYMirFbkI5z1l3snoQ2MyXmIQ8/ekM+MSTTR6k1jiHKKYp1Bve5U9mu5BFH4Q==",
+  "dgSpecHash": "XkRWZbZd4HuEQ4deYM9ijK/klT69E2VsqiZf6twOECZ60Bv+kIz/9SJAZ0qgdHQoSEj5wntVxyh6piMk6XE88g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\documents\\sr\\c#\\GenericSort\\GenericSort.csproj",
+  "projectFilePath": "c:\\Users\\User\\documents\\sr\\c#\\GenericSort\\GenericSort.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",

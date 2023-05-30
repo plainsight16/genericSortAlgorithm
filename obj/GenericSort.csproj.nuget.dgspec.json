@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\documents\\sr\\c#\\GenericSort\\GenericSort.csproj": {}
+    "c:\\Users\\User\\documents\\sr\\c#\\GenericSort\\GenericSort.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\documents\\sr\\c#\\GenericSort\\GenericSort.csproj": {
+    "c:\\Users\\User\\documents\\sr\\c#\\GenericSort\\GenericSort.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\documents\\sr\\c#\\GenericSort\\GenericSort.csproj",
+        "projectUniqueName": "c:\\Users\\User\\documents\\sr\\c#\\GenericSort\\GenericSort.csproj",
         "projectName": "GenericSort",
-        "projectPath": "C:\\Users\\User\\documents\\sr\\c#\\GenericSort\\GenericSort.csproj",
+        "projectPath": "c:\\Users\\User\\documents\\sr\\c#\\GenericSort\\GenericSort.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\documents\\sr\\c#\\GenericSort\\obj\\",
+        "outputPath": "c:\\Users\\User\\documents\\sr\\c#\\GenericSort\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
