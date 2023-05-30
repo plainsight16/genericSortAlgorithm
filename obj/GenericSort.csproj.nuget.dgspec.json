@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\documents\\sr\\c#\\GenericSort\\GenericSort.csproj": {}
+    "C:\\Users\\Julius Alibrown\\Desktop\\class\\abdulahi\\genericSortAlgorithm\\GenericSort.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\documents\\sr\\c#\\GenericSort\\GenericSort.csproj": {
+    "C:\\Users\\Julius Alibrown\\Desktop\\class\\abdulahi\\genericSortAlgorithm\\GenericSort.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\documents\\sr\\c#\\GenericSort\\GenericSort.csproj",
+        "projectUniqueName": "C:\\Users\\Julius Alibrown\\Desktop\\class\\abdulahi\\genericSortAlgorithm\\GenericSort.csproj",
         "projectName": "GenericSort",
-        "projectPath": "C:\\Users\\User\\documents\\sr\\c#\\GenericSort\\GenericSort.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\documents\\sr\\c#\\GenericSort\\obj\\",
+        "projectPath": "C:\\Users\\Julius Alibrown\\Desktop\\class\\abdulahi\\genericSortAlgorithm\\GenericSort.csproj",
+        "packagesPath": "C:\\Users\\Julius Alibrown\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Julius Alibrown\\Desktop\\class\\abdulahi\\genericSortAlgorithm\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Julius Alibrown\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -69,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
