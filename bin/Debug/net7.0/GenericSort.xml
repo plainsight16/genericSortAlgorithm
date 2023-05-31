@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GenericSort</name>
+    </assembly>
+    <members>
+        <member name="M:genericSort.Program.printList``1(System.Collections.Generic.List{``0})">
+            <summary>
+            A function that prints out to the console a list of any type in specified format.
+            </summary>
+            <param name="list"></param>
+            <typeparam name="T"></typeparam>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:genericSort.Program.Sort``1(System.Collections.Generic.List{``0})" -->
+        <member name="M:genericSort.Program.insertionSort``1(``0[],System.Int32)">
+            <summary>
+            A helper fuction to the Sort function that sorts an array of any type using the insertion sort algorithm.
+            </summary>
+            <param name="arr"></param>
+            <param name="n"></param>
+            <typeparam name="T"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:genericSort.Program.quickSort``1(``0[],System.Int32,System.Int32)">
+            <summary>
+            A helper fuction to the Sort function that sorts an array of any type using the quick sort algorithm.
+            </summary>
+            <param name="arr"></param>
+            <param name="low"></param>
+            <param name="high"></param>
+            <typeparam name="T"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:genericSort.Program.partition``1(``0[],System.Int32,System.Int32)">
+            <summary>
+            A helper fuction to the quickSort function that partitions an array of any type.
+            </summary>
+            <param name="arr"></param>
+            <param name="low"></param>
+            <param name="high"></param>
+            <typeparam name="T"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:genericSort.Program.heapSort``1(``0[],System.Int32)">
+            <summary>
+            A helper function to the Sort function that sorts an array of any type using the heap sort algorithm.
+            </summary>
+            <param name="arr"></param>
+            <param name="n"></param>
+            <typeparam name="T"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:genericSort.Program.heapify``1(``0[],System.Int32,System.Int32)">
+            <summary>
+            A helper function to the heapSort function that heapifies an array of any type.
+            </summary>
+            <param name="arr"></param>
+            <param name="n"></param>
+            <param name="i"></param>
+            <typeparam name="T"></typeparam>
+        </member>
+    </members>
+</doc>
