@@ -5458,19 +5458,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Elite folio9470m\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Elite folio9470m\\Source\\Repos\\genericSortAlgorithm\\GenericSort.csproj",
+      "projectUniqueName": "c:\\Users\\User\\documents\\sr\\c#\\genericSort\\GenericSort.csproj",
       "projectName": "GenericSort",
-      "projectPath": "C:\\Users\\Elite folio9470m\\Source\\Repos\\genericSortAlgorithm\\GenericSort.csproj",
-      "packagesPath": "C:\\Users\\Elite folio9470m\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Elite folio9470m\\Source\\Repos\\genericSortAlgorithm\\obj\\",
+      "projectPath": "c:\\Users\\User\\documents\\sr\\c#\\genericSort\\GenericSort.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\User\\documents\\sr\\c#\\genericSort\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Elite folio9470m\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5525,7 +5525,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -294,3 +294,5 @@ C:\Users\Elite folio9470m\Source\Repos\genericSortAlgorithm\obj\Debug\net7.0\Gen
 C:\Users\Elite folio9470m\Source\Repos\genericSortAlgorithm\obj\Debug\net7.0\GenericSort.pdb
 C:\Users\Elite folio9470m\Source\Repos\genericSortAlgorithm\obj\Debug\net7.0\GenericSort.genruntimeconfig.cache
 C:\Users\Elite folio9470m\Source\Repos\genericSortAlgorithm\obj\Debug\net7.0\ref\GenericSort.dll
+c:\Users\User\documents\sr\c#\genericSort\bin\Debug\net7.0\GenericSort.xml
+c:\Users\User\documents\sr\c#\genericSort\obj\Debug\net7.0\GenericSort.xml

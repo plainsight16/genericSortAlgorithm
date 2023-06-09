@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\documents\\sr\\c#\\GenericSort\\GenericSort.csproj": {}
+    "c:\\Users\\User\\documents\\sr\\c#\\ExamPractice\\ExamPractice.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\documents\\sr\\c#\\GenericSort\\GenericSort.csproj": {
+    "c:\\Users\\User\\documents\\sr\\c#\\ExamPractice\\ExamPractice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\documents\\sr\\c#\\GenericSort\\GenericSort.csproj",
-        "projectName": "GenericSort",
-        "projectPath": "C:\\Users\\User\\documents\\sr\\c#\\GenericSort\\GenericSort.csproj",
+        "projectUniqueName": "c:\\Users\\User\\documents\\sr\\c#\\ExamPractice\\ExamPractice.csproj",
+        "projectName": "ExamPractice",
+        "projectPath": "c:\\Users\\User\\documents\\sr\\c#\\ExamPractice\\ExamPractice.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\documents\\sr\\c#\\GenericSort\\obj\\",
+        "outputPath": "c:\\Users\\User\\documents\\sr\\c#\\ExamPractice\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,20 +39,6 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "dependencies": {
-            "Microsoft.NET.Test.Sdk": {
-              "target": "Package",
-              "version": "[17.6.0, )"
-            },
-            "xunit": {
-              "target": "Package",
-              "version": "[2.4.2, )"
-            },
-            "xunit.runner.visualstudio": {
-              "target": "Package",
-              "version": "[2.4.5, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

@@ -5,14 +5,16 @@
         public static void Main(String[] args)
         {
             
-            var unsortedList = new List<int>{ 5, 4, 3, 2, 1 };
-            Console.Write("Unsorted List: ");
-            printList(unsortedList);
+            // var unsortedList = new List<int>{ 5, 4, 3, 2, 1 };
+            // Console.Write("Unsorted List: ");
+            // printList(unsortedList);
 
-            var sortedList = Sort(unsortedList);
-            Console.Write("Sorted List: ");
-            printList(sortedList);
-
+            // var sortedList = Sort(unsortedList);
+            // Console.Write("Sorted List: ");
+            // printList(sortedList);
+            int[] arr = { 5, 4, 3, 2, 1 };
+            SelectionSort(arr);
+            printList(arr.ToList());
 
         }       
         /// <summary>
@@ -195,6 +197,108 @@
                 arr[largest] = swap;
 
                 heapify(arr, n, largest);
+            }
+        }
+
+        // private static List<int> MergeSort(int l, int h)
+        // {
+        //     while (l != h)
+        //     {
+        //         if (l < h)
+        //         {
+        //             int mid = (l + h) / 2;
+
+        //             MergeSort(l, mid);
+        //             MergeSort(mid + 1, h);
+        //             Merge(l, mid, h);
+        //         }
+        //     }
+        // }
+
+        // private static void Merge(int l, int mid, int h)
+        // {
+        //     while (l <= mid && mid + 1 < h)
+        //     {
+        //         if (array[l] < array[mid + 1])
+        //             newArray[k++] = array[l++];
+        //         else
+        //             newArray[k++] = array[(mid + 1)++];
+        //     }
+        //     for (; l <= mid; l++)
+        //     {
+        //         newArray[k++] = array[l++];
+        //     }
+        //     for (; mid + 1 <= h; mid++)
+        //     {
+        //         newArray[k++] = array[l++];
+        //     }
+        // }
+        private static void Init(int[] arr)
+        {
+            // for(int i = 1; i < arr.Length; i++)
+            // {
+            //     int key = i;
+            //     for (int j = key - 1; j >= 0; j--)
+            //     {
+            //         if (arr[key] < arr[j])
+            //         {
+            //             int temp = arr[key];
+            //             arr[key] = arr[j];
+            //             arr[j] = temp;
+            //             key--;
+            //         }
+            //     }
+            // }
+
+            for (int i = 1; i < arr.Length; i++)
+            {
+                int key =  arr[i];
+
+                int j = i - 1;
+
+                while (j >= 0 && arr[j] > key)
+                {
+                    arr[j + 1] = arr[j];
+                    j--;
+                }
+                arr[j + 1] = key;
+            }
+        }
+
+        private static void BubbleSort(int[] arr)
+        {
+            for (int j = 0; j < arr.Length; j++)
+            {
+                for (int i = 0; i < arr.Length - (j + 1); i++)
+                {
+                    if (arr[i] > arr[i + 1])
+                    {
+                        int temp = arr[i + 1];
+                        arr[i + 1] = arr[i];
+                        arr[i] = temp;
+                    }
+                }    
+            }
+        }
+
+        private static void SelectionSort(int[] arr)
+        {   
+            for (int i = 0; i < arr.Length; i++)
+            {
+                int min = i;
+                for (int j = i + 1; j < arr.Length; j++)
+                {
+                    if (arr[j] < arr[min])
+                    {
+                        min = j;
+                    }
+                }
+                if (min != i)
+                {
+                    int temp = arr[min];
+                    arr[min] = arr[i];
+                    arr[i] = temp;
+                }
             }
         }
     }
